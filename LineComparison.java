@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 class Line{
@@ -44,5 +43,6 @@ class LineComparison {
         }else{
             System.out.println("both lines are not equal");
         }
+
     }
 }
