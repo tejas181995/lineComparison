@@ -26,6 +26,7 @@ class Line{
 
     }
 
+
 }
 
 class LineComparison {
@@ -55,6 +56,7 @@ class LineComparison {
         }else{
             System.out.println("both lines are equal");
         }
+
 
 
     }
