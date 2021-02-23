@@ -16,16 +16,10 @@ class Line{
         return this.length() == l2.length();
     }
 
-    public int CompareTo(Line l2){
-        if (this.length() > l2.length()){
-            return 1;
-        }else if (this.length() < l2.length()){
-            return -1;
-        }
-        return 0;
+    public double CompareTo(Line l2){
+        return  (this.length() - l2.length());
 
     }
-
 
 }
 
@@ -52,11 +46,10 @@ class LineComparison {
         if(l1.CompareTo(l2) > 0){
             System.out.println("line 1 is greater than line 2");
         }else if(l1.CompareTo(l2) < 0){
-            System.out.println("line 1 is not greater than line 2");
+            System.out.println("line 1 is lessthan line 2");
         }else{
             System.out.println("both lines are equal");
         }
-
 
 
     }
